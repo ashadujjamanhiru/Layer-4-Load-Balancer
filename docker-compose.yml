@@ -1,0 +1,11 @@
+
+virsion '2'
+
+services:
+    webapp:
+        build: webapp
+
+    proxy:
+        build: proxy
+        ports:
+            -"80:80"
