@@ -1,10 +1,13 @@
 # Layer-4-Load-Balancer
-# Layer-4 Load Balancer with Nginx
+**Layer-4 Load Balancer with Nginx**
 
-# Step [1] Clone GitHub
+**Step [1] Clone GitHub**
 
-# Goto webapp folder
+**Goto webapp folder**
+    
+    cd webapp
+    
+**Build Docker file**
 
-  cd webapp
+    docker build -t webapp .
 
-Build Docker file webapp
