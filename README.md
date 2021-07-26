@@ -66,7 +66,7 @@
 **Run Docker Image Container**
 
     docker run -it -d -p 80:80 --name lb-server lb/proxy
-    **
+    
 **Check Web Browser (Double reload, reload, reload)**
 
     localhost:80
